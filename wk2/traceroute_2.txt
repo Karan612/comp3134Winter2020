@@ -1,0 +1,15 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# apt-get install traceroute
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+traceroute is already the newest version (1:2.1.0-2).
+0 upgraded, 0 newly installed, 0 to remove and 76 not upgraded.
+root@lamp-s-1vcpu-1gb-tor1-01:~# traceroute www.google.com
+traceroute to www.google.com (172.217.164.228), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.0 (10.78.4.0)  1.210 ms 10.78.4.6 (10.78.4.6)  12.689 ms 10.78.4.0 (10.78.4.0)  1.152 ms
+ 3  138.197.249.90 (138.197.249.90)  1.106 ms  1.112 ms 138.197.249.86 (138.197.249.86)  1.081 ms
+ 4  162.243.190.33 (162.243.190.33)  1.213 ms 72.14.219.10 (72.14.219.10)  1.130 ms  1.079 ms
+ 5  74.125.244.145 (74.125.244.145)  2.291 ms 74.125.244.161 (74.125.244.161)  1.104 ms 74.125.244.145 (74.125.244.145)  2.251 ms
+ 6  216.239.42.61 (216.239.42.61)  1.156 ms  0.835 ms  0.788 ms
+ 7  yyz12s05-in-f4.1e100.net (172.217.164.228)  1.029 ms  1.089 ms  1.069 ms
