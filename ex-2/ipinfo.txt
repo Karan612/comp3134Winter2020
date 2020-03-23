@@ -1,0 +1,29 @@
+1: GITHUB
+
+IP Address: 192.30.253.113
+
+Geolocation: US (United States), CA, California, 94107 San Francisco - Google Maps
+
+2: INSTAGRAM
+
+IP Address: 54.144.193.133
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+
+3: APPLE
+
+IP Address: 17.172.224.47
+
+Geolocation: US (United States), CA, California, 95014 Cupertino - Google Maps
+
+4: WHATSAPP
+
+IP Address: 45.33.2.79
+
+Geolocation: US (United States), TX, Texas, 75270 Dallas - Google Maps
+
+5: WINDOWS
+
+IP Address: 13.77.161.179
+
+Geolocation: US (United States), WA, Washington, 98052 Redmond - Google Maps
