@@ -1,0 +1,7 @@
+1: What you see on the browser (the issue)
+
+-> i can see all contents (files and folders) of the directory named 'var'. which includes www also.
+
+2: What sensitive information is given by this page
+
+-> again we passed the way to get to the root folder, so it is possible that hackers can navigate to root folder and do whatever he/she wants.

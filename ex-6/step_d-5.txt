@@ -1,0 +1,7 @@
+1: What you see on the browser (the issue)
+
+-> We just moved one directory backwards, because i can see html directory on the browser.
+
+2: What sensitive information is given by this page
+
+-> We directed to the root folder of web application from where hackers can inject and try to hack.

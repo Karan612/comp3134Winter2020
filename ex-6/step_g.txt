@@ -1,0 +1,2 @@
+Display HTML Tags as normal text in php using echo, so that it can understood by broser that its html.
+Convert comments to php comments, so that it cannot be seen to user. To do that we start comment with // instead of <!-- -->

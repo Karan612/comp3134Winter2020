@@ -1,0 +1,7 @@
+For should not be able to view files and folders before html directory, I will check for the 'basename' in the query string.
+Doing this will online give me the basename of the path and disallow user to use '../' for moving up the directory
+
+
+For Should not attempt to look at folders that do not exists, I will check if the directory exists using 'file_exists' methods.
+
+For Bonus part of do not allowing user to pass a filename, I will check that whether the basename of given path is_dir or not and If not, I'll set the header to 'Forbidden'

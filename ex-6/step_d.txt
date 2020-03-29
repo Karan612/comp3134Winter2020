@@ -1,0 +1,7 @@
+1: What you see on the browser (the issue)
+
+-> there is a Waring for scandir(hello): failed to open dir: No such file or directory. the directory name 'hello' doesn't exist.
+
+2: What sensitive information is given by this page
+
+-> Name of the directory was the sensitive information given to this page, as this directory could contain important files and hackers can know that using url.
