@@ -1,0 +1,11 @@
+  
+1 -> The content of the page is changed and displayed on the page after it reloads. The query string 
+in the URL changes and accepts one parameter 's'.
+
+2 -> The page reloads, the user is presented with the message "No results found for (The word searched)". Below, there's a suggestion of similar words. The URL portion '/browse' changes to '/misspelling?term=(The word searched)'
+
+3 -> The page reloads and presented with a message "Results for <script>alert('hello')</script>:".
+The URL changes to "noresult" with two parameters 'term' & 's'.
+
+4 -> The user is presented with a message "Results for <script>alert('hello')</script>:".
+The URL changes to "noresult" but with NO parameters this time.
