@@ -1,0 +1,3 @@
+we need to protect both pages, the one with form and the one that processes it. so it will compare both sessions values and access grant. in case of this random try, it is possible but it takes time to guess the session value
+
+so using csfr.html we can get access because it not protected with sessions but while using csfr_form.php we cannot get access untill the session value matches csfr.php

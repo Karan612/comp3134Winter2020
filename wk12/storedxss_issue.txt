@@ -1,0 +1,3 @@
+ what issue(s) you see?
+
+-> The issue is that the script is added to the code but no output so user cannot see whats happening behind. it is a way of script injection
