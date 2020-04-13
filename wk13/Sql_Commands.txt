@@ -1,0 +1,16 @@
+----Step D----
+CREATE DATABASE interface;
+
+use interface;
+
+CREATE TABLE users (id INT PRIMARY KEY, username VARCHAR(100), email VARCHAR(100), firstname VARCHAR(100), lastname VARCHAR(100), active BOOLEAN);
+
+----Step E----
+
+INSERT INTO users VALUES (1, "karan_patel", "kpatel@gmail.com", "karan", "patel", 0);
+INSERT INTO users VALUES (2, "mansi_mehta", "mmehta@gmail.com", "mansi", "mehta", 0);
+INSERT INTO users VALUES (3, "prishita_ribadia", "pribadia@gmail.com", "prishita", "ribadia", 1);
+INSERT INTO users VALUES (4, "kashyap_gauswami", "kguaswami@gmail.com", "kashyap", "gauswami", 0);
+INSERT INTO users VALUES (5, "shiv_guard", "sguard@gmail.com", "shiv", "guard", 1);
+
+INSERT INTO users VALUES (6, "ben_b", "ben@gbc.com", "Ben", "any", 0);

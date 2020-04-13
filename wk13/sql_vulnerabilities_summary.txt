@@ -1,0 +1,5 @@
+1 -> No Data was returned, just the column headers appeared. It was expected because no database rows matched. 
+
+2 -> One record was returned the user Ben, but it really should not. Because the active column was equal to 0. It      Maybe it happenned because of the extra '--' in the query.
+
+3 -> No Data was returned, just the column headers appeared.
